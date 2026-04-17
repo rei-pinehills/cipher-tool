@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #1a1a2e;
+    color: #eee;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+#container {
+    background: #16213e;
+    border: 2px solid #00d4ff;
+    border-radius: 12px;
+    padding: 40px;
+    width: 500px;
+}
+h1 {
+    color: #00d4ff;
+    margin-bottom: 8px;
+}
+.subtitle {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    background: #0f3460;
+    border: 1px solid #00d4ff;
+    border-radius: 6px;
+    color: #eee;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 10px;
+    resize: none;
+    margin-bottom: 16px;
+}
+#controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+select {
+    padding: 8px;
+    background: #0f3460;
+    border: 1px solid #00d4ff;
+    border-radius: 6px;
+    color: #eee;
+    font-family: monospace;
+    font-size: 14px;
+}
+#shift-area {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    background: #0f3460;
+    border: 1px solid #00d4ff;
+    border-radius: 6px;
+    color: #eee;
+    font-family: monospace;
+    font-size: 14px;
+}
+#buttons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+button {
+    padding: 10px 20px;
+    background: #0f3460;
+    border: 1px solid #00d4ff;
+    border-radius: 6px;
+    color: #00d4ff;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover {
+    background: #00d4ff;
+    color: #000;
+}
+#info-box {
+    background: #0f3460;
+    border-left: 3px solid #00d4ff;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #aaa;
+    border-radius: 4px;
+    min-height: 40px;
+}
+h3 {
+    color: #00d4ff;
+    margin-bottom: 8px;
+}
+#result {
+    background: #0f3460;
+    border: 1px solid #00d4ff;
+    border-radius: 6px;
+    padding: 12px;
+    min-height: 50px;
+    word-break: break-all;
+    color: #00ff88;
+}
